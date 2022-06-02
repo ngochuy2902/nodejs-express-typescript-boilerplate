@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2017",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "es2015", "es5", "es6", "dom"
+    ]
+  },
+  "exclude": ["node_modules", "dist", "ormconfig-*.ts", "src/entity/base-*.ts"],
+}

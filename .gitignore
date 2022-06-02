@@ -1,0 +1,12 @@
+node_modules/
+/.idea/*
+/logs
+/dist
+/node_modules
+.env
+.DS_Store
+.vscode/*
+ormconfig.ts
+/resources/tmp/**
+/resources/data/**
+yarn-error.log

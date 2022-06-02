@@ -1,0 +1,19 @@
+export const ErrorCode = {
+  // Common
+  BAD_REQUEST: 'EXS-400',
+  UNAUTHORIZED: 'EXS-401',
+  FORBIDDEN: 'EXS-403',
+  NOT_FOUND: 'EXS-404',
+  INTERNAL_SERVER_ERROR: 'EXS-500',
+
+  // Validator exception error code (Default: EXS-1xxx)
+  EMAIL_ALREADY_USED: 'EXS-1001',
+  WRONG_PASSWORD: 'EXS-1002',
+  INVALID_REFRESH_TOKEN: 'EXS-1003',
+  INVALID_FILE_EMPTY: 'EXS-1004',
+  INVALID_FILE_UPLOAD_EXTENSION: 'EXS-1005',
+  INVALID_FILE_UPLOAD_SIZE: 'EXS-1006',
+
+  // Object not found exception (Default: EXS-4xxx)
+  USER_NOT_FOUND: 'EXS-4001',
+};
